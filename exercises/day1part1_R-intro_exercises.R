@@ -6,46 +6,46 @@
 #### Arithmetic ####
 
 # Pick a number; save it as x
-
+x<-5
 
 # Multiply x by 3
-
+x*3
 
 # Take the log of the above (Hint, you need the function log() here)
-
+log(x*3)
 
 # Subtract 4 from the above
-
+log(x*3)-4
 
 # Square the above
-
+(log(x*3)-4)^2
 
 #### Comparisons and Logical Operators ####
 
 # Check if 1 is bigger than 2
-
+1>2
 
 # Check if 1 + 1 is equal to 2
-
+1+1==2
 
 # Check if it is true that the strings "eat" and "drink" are not equal to each other
-
+"eat" != "drink"
 
 # Check if it is true that 1 is equal to 1 *AND* 1 is equal to 2 
 # (Hint: remember what the operators & and | do)
-
+1==1 & 1==2
 
 # Check if it is true that 1 is equal to 1 *OR* 1 is equal to 2
-
+1==1 | 1==2
 
 #### Packages and Functions ####
 
 # Load the package tidyverse
-
+library(tidyverse)
 
 # Open the help file for the function recode 
 # (Hint: remember what ? does)
-
+?recode
 
 #### REVIEW: DATA STRUCTURES ####
 
@@ -57,19 +57,19 @@ x1 <- rnorm(5)
 x2 <- rnorm(20, mean=0.5)
 
 # Select the 3rd element in x1
-
+x1[3]
 
 # Select the elements of x1 that are less than 0
-
+x1[x1<0]
 
 # Select the elements of x2 that are greater than 1
-
+x2[x2>1]
 
 # Create x3 containing the first five elements of x2
-
+x3 <- x2[1:5]
 
 # Select all but the third element of x1
-
+x1[-3]
 
 #### Missing values ####
 
